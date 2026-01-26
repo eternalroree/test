@@ -6,6 +6,6 @@ This repository contains a simple Node.js application for uploading and selling 
 
 1. Install dependencies with `npm install`.
 2. Run the server using `node server.js`.
-3. Visit `http://localhost:3000/admin` to upload beats and manage your catalog.
+3. Visit `http://localhost:3000/` for the storefront, or `http://localhost:3000/admin` to upload beats.
 
 For embedding instructions see [embed-widget/README.md](embed-widget/README.md).

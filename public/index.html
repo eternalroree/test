@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roree Beat Store</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="tag">New beats weekly</p>
+        <h1>Roree Beat Store</h1>
+        <p class="subtitle">
+          Browse ready-to-license instrumentals, preview each track, and grab the perfect sound for your next
+          project.
+        </p>
+        <div class="cta-row">
+          <a class="cta primary" href="/admin">Upload new beats</a>
+          <a class="cta ghost" href="/embed-widget/demo.html">View widget demo</a>
+        </div>
+      </header>
+
+      <section class="beats" aria-live="polite">
+        <div class="beats-header">
+          <h2>Available beats</h2>
+          <span class="chip" id="beat-count">0 beats</span>
+        </div>
+        <div class="beats-grid" id="beats-grid">
+          <div class="beat-card placeholder">Loading beats...</div>
+        </div>
+      </section>
+
+      <section class="how-it-works">
+        <h2>How it works</h2>
+        <div class="steps">
+          <article>
+            <h3>Preview</h3>
+            <p>Listen to each beat right here and find the vibe you need.</p>
+          </article>
+          <article>
+            <h3>License</h3>
+            <p>Click through the widget demo to accept PayPal payments.</p>
+          </article>
+          <article>
+            <h3>Deliver</h3>
+            <p>Upload your latest beats in the admin page to keep the catalog fresh.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

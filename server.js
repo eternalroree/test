@@ -21,6 +21,7 @@ const upload = multer({ storage });
 app.use(express.json());
 app.use('/embed-widget', express.static(path.join(__dirname, 'embed-widget')));
 app.use('/uploads', express.static(UPLOAD_DIR));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Helper to load beats
 function loadBeats() {
